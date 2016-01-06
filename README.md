@@ -1,0 +1,2 @@
+# ClassNote124
+classNoteForJava
