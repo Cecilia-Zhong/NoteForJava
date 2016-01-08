@@ -28,7 +28,6 @@
 	//2,3
 	// create the class to contain the method 
 
-package menu;
 
 public class texbook {
 
