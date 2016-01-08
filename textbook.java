@@ -19,7 +19,7 @@
 	 *  'A' is the type char; "A" is the type of string
 	 *  floating-points numbers are, in effect,stored as approximate quantities
 	 *  Integers are store exact quantities 
-	 *  end page 27 
+	 *  
 	 */
 
 	//question in chapter 1
