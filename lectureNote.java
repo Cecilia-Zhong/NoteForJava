@@ -11,7 +11,7 @@
 */
 
 // create a new class, same as the name in file 
-public class helloWorld { 
+public class lectureNote { 
 	// create the method named main 
 	public static void main(String[] args) {
 		// indentation problem 

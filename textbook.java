@@ -30,7 +30,7 @@
 
 package menu;
 
-public class main {
+public class texbook {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
