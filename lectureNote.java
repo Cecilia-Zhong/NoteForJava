@@ -60,8 +60,8 @@ public class lectureNote {
 		// output as string even it is int+ string 
 		int a = 6;
 		int b = 9;
-		System.out.printLn("The total is:" + a + b ); // The total is 96
-		System.out.printLn(a + b + "The total is:"); // 15 The total is, run from left to right
+		System.out.println("The total is:" + a + b ); // The total is 96
+		System.out.println(a + b + "The total is:"); // 15 The total is, run from left to right
 		
 		String a = "apple";
 		String b = "banana";
@@ -72,7 +72,7 @@ public class lectureNote {
 		Scanner keyword = new Scanner(System.in); // create a Scanner object;
 		System.out.print("enter yout name(first and last):" ) // why it just the print, not println;
 		keyword.next(): String ;
-		keyword.nextline()
+		keyword.nextline();
 		
 		//???? unfinish 
 		keyword.hasNextInt(); // true it is an int;
@@ -86,13 +86,43 @@ public class lectureNote {
 		}
 		}
 		
+// lecture 4 Jan 12th, Tuesday 
+/* method:function, procedure, subprogram, subroutine (same)
+ * the reason why we use method:1. avoide duplicate code,2. modulize, improve readability;
+ * abstraction: what it does (preface) concrete/implementation view: how it works (implementation) 
+ * break: ends the current innermost loop;
+ * scope of variable = where it can be used 
+ * scope of java variable: from declaration to the end, the variable can be used out of its own } 
+ * if you have " int b " before, you cannot have "double b", illegal 
+ * global variable: variable can be use outside of method but not outside of program 
+ * arrays: arrays are not lists !!!,
+ * java arrays: size is specified at creation time, never changes;  all values must have same type (homogeneous); 
+ * java array: all you can do is change the value of existing elements; all array elements initialized zero/null array 
+ * python list: can grow& shrink; can mix many types o'values (heterogeneous); language features for adding&deleting at any position; 
+ * type[]name = new type[size]   or type name[] = new type[size]
+ * eg. (double) variable: force variable in the double 
+ * 
+ */
+		
+// function of the method do 
+// what does the result may or will shown if any condition happens 
+	public stativ boolean leapYear(int year){ // boolean here means return boolean in the end 	
+		System.exit(n);
+		// n = 0 menas normal exit, nor means error abort 
+	}
+	public static double m(double a, double b) {// a and b can be int because java can convert int to double 
+		int marks[] = new int[20]; // 20 zero in the arrays named marks 
+		String[] names = new String[10] // ten string array
+		return a+b; 
+	}
 		
 		
 		
-		
-		
-		
-		
+/* Question:
+ * why n = 0 means nomal exit?
+ * int marks[] = new int[20]; means index from 1 to 19 or there are 20 zero in the array 
+ * 
+ */
 		
 		
 		
