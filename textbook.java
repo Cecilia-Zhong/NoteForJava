@@ -19,10 +19,13 @@
 	 *  'A' is the type char; "A" is the type of string
 	 *  floating-points numbers are, in effect,stored as approximate quantities
 	 *  Integers are store exact quantities 
-	 *  
+	 *  increment ++; decrement operator: --; eg. n++;/n--;
+	 *  n++ and ++n have the same effect, but it execute before the variable;
+	 *  n++ execute after the variable; the n one for single variable,not (x+y)++ nor number;
+	 *  double quote is string but signle quote is char type;
 	 */
 
-	//question in chapter 1
+	//practise question in chapter 1
 	// 1. Java is not a drink.
 
 	//2,3
@@ -37,19 +40,19 @@ public class texbook {
 		System.out.println("I like Java.");
 		System.out.println("You like tea.");
 		
-		System.out.println("Hello World!");//3
+		System.out.println("Hello World!"); //3
 		
 		int feet,inches;
 		inches = 0;
 		feet = 0; // 12
 		int count = 0;
-		double distance = 1.5;//13
+		double distance = 1.5; //13
 		
 		int distance_1,time;
 		time = 0;
-		distance_1 = 80*time;//14
+		distance_1 = 80*time; //14
 		
-		double interest,balance,rate;//15
+		double interest,balance,rate; //15
 		
 		char a,b;
 		a='b';
@@ -57,7 +60,7 @@ public class texbook {
 		b='c';
 		System.out.println(b);
 		a = b;
-		System.out.println(a);//16 c 
+		System.out.println(a); //16 c 
 		
 		//17 (3*x)/(3*x+y)/((x+y)/7)/((3*x)/(z+2))
 		System.out.println("(1/3)*3 is equal: "+(1/3)*3);
@@ -67,10 +70,45 @@ public class texbook {
 		//20: 5 
 		//21: a. double 52.0; b. both double outputs the type of double 
 		double celsius = 20, fahrenheit = (9/5)* celsius + 32.0;
-		//end page 29/63 textbook 
+		//22 n == 3
+		//23 n == 4 n == 3
+		
+		// ----------------------end of practise question 
+		
+		(double) m; //type casting, but int(2.9) is 2 not 3 
+		int i = (int)5.5; // int i = 5.5; is illegal b/c #doesn't fit the type
+		
+		int n = 2;
+		int valueProduced = 2 * (n++);
+		System.out.println(valueProduced); //output is 4, n doesn't change yet;
+		System.out.println(n); // output is 3, n has already changed  
+		
+		int valueProduced1 = 2 * (++n);
+		System.out.println(valueProduced1); //output is 6, n change;
+		System.out.println(n); // output is 3, n has already changed (++n) same as (n+1)
+		
+/* question 
+ * 1. n++; and ++n; has the same effect ???
+ * 2. 
+ * 3. 
+ */
+//page 33 end of reading 		
 		
 		
-				
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 

@@ -27,10 +27,8 @@ public class lectureNote {
 	} // end main 
 
 
-/* question:
- * 1. what is file I/O 
- * 2. 
- * 
+/* question from lecture 2:
+ * 1. what is file I/O --> input and output file 
  */
  
 
@@ -86,8 +84,8 @@ public class lectureNote {
 		}
 		}
 		
-// lecture 4 Jan 12th, Tuesday 
-/* method:function, procedure, subprogram, subroutine (same)
+/* lecture 4 Jan 12th, Tuesday 
+ * method:function, procedure, subprogram, subroutine (same)
  * the reason why we use method:1. avoide duplicate code,2. modulize, improve readability;
  * abstraction: what it does (preface) concrete/implementation view: how it works (implementation) 
  * break: ends the current innermost loop;
@@ -106,26 +104,67 @@ public class lectureNote {
 		
 // function of the method do 
 // what does the result may or will shown if any condition happens 
-	public stativ boolean leapYear(int year){ // boolean here means return boolean in the end 	
-		System.exit(n);
-		// n = 0 menas normal exit, nor means error abort 
+	
+	public static boolean leapYear(int year){ // boolean here means return boolean in the end 	
+	System.exit(n);
+	// n = 0 menas normal exit, nor means error abort 
+}
+	
+public static double m(double a, double b) {// a and b can be int because java can convert int to double 
+	int marks[] = new int[20]; // 20 zero in the arrays named marks 
+	String[] names = new String[10] // ten string array
+	return a+b; 
 	}
-	public static double m(double a, double b) {// a and b can be int because java can convert int to double 
-		int marks[] = new int[20]; // 20 zero in the arrays named marks 
-		String[] names = new String[10] // ten string array
-		return a+b; 
-	}
 		
 		
 		
-/* Question:
- * why n = 0 means nomal exit?
- * int marks[] = new int[20]; means index from 1 to 19 or there are 20 zero in the array 
- * 
+/* Questionfor lecture 5 :
+ * why n = 0 means nomal exit?--> system define it; 
+ * int marks[] = new int[20]-->  index from 1 to 19, 20 zero and blank item in array;
+ * print --> print at the same line; println --> print on the new line 
  */
 		
-		
-		
+/* lecture 6 Jan.13th, wednesday
+ * for (int i = 0; i < 20; i++) --> ; here is and
+ * set the variable for the size of array so that we don't need to change all the #o'size o'array;
+ * <array name>.lenth --> get the length o'the array;
+ * new: create the new object in the property -- new type variable array_name[]
+ * two demensional array: int scores[] [] =  new int [20][9]
+ * scores[4] is 5th row; scores[4][7] is an int; 
+ * score.length is the height of the array, which is row 
+ * scores[0].length --> column of the array, or array width;
+ * three way to use scanner: by java.util package; 
+ * in array, each row can have different number of column; 
+ * System .out --> System is the package, out is the class to put output; 
+ * java.lang package--> Math, System, string; string is the object of class; 
+ *  use any API class or package unless specifically asked not to use it;
+ * don't use non-standard classes&package from Internet or supplied with Eclipse;
+ * standard API comes with java or javax --> java.io / javax.swing;
+ * cannot use org. in eclipse;
+ * 
+ */
+	
+	public static string array(int size){
+		int array_name[] = new int [10];
+		int x = array_name[0]; // ok
+		array_name[8] = 42; // ok
+		int z = array_name[5]; // exception, end at 9, -1 
+		for (int i = 0 ; i++; i < array_name.length){
+			
+		}
+		 int scores[][] =  new int [20][9];// two demintion table, 20rows, 9columns  	
+	}
+	
+	public class Import{
+		public static void main(String arg[]{
+			java.util.Scanner ketboard = new Scanner(System.in);
+			String name = keyboard.nextLine();
+			
+		}
+	import java.util.Scanner; //import java.util.*; import all class in java 
+	
+	
+	}
 		
 		
 		
