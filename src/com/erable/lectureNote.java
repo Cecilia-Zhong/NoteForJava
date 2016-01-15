@@ -1,6 +1,6 @@
 package com.erable;
 /* Lecture 2 January 6th 
- * topic 2 basix javaI;
+ * topic 2 basic javaI;
  * file I/O;
  * Java tool: BlueJ;JDK plus text editor; Eclipse;
  * semi-colon  (;) is for separate but not the new line and the space;
@@ -17,9 +17,12 @@ public class lectureNote {
 	// create the method named main 
 	public static void main(String[] args) {
 		// indentation problem 
-		
+		int n;
+		int a;
+		int d;
 		if ( n > 10){ 
-			a = 1;b = 2;
+			a = 1;
+			d = 2;
 		} // the whole brace { } is the group of statement 
 		// c = 3; 
 		 * 
@@ -33,47 +36,47 @@ public class lectureNote {
  */
  
 
- /* Lecture 3 January 8 th;
+ /* Lecture 3 January 8;
   * 45
-  * topc 2 basic java II;
+  * Topic 2 basic java II;
   * basic type used mostly: int and double 
-  * final(ketword): Pi is constant and it is not a variable; 
+  * final(keyword): Pi is constant and it is not a variable; 
   *  result of 1/3 results is int, which is 0 --> put it in the end of multiplication / let it *1.0 / (double)1/3;
   *  type string: string is object in java 
   *  string is not the list/arrays of character
-  *  'a' are type char, single character, unicode from america; "a" is type string;
+  *  'a' are type char, single character, encode from America; "a" is type string;
   *  double equal: it is not equal --> if (s1 == s2) changes into: if (s1.equals(s2));
-  *  single euqal: mathematic equal;
+  *  single equal: mathematics equal;
   *  
   */
 	public static void mainSec(String[] args){
 		String month = "January";
 		char c = month.charAt(2);
 		
-		String sub = month.charAt(2,5);
+		// String sub = month.charAt(2,5);
 		
 		String x = "abc";
 		String y = "def";
-		// value of x + y? yes, connotation 
+		// value of x + y? yes 
 		
-		// output as string even it is int+ string 
+		// output as string even it is integer + string 
 		int a = 6;
 		int b = 9;
 		System.out.println("The total is:" + a + b ); // The total is 96
 		System.out.println(a + b + "The total is:"); // 15 The total is, run from left to right
 		
-		String a = "apple";
-		String b = "banana";
-		int val  a.compareTo(b); // come out as the boolean answer if two output, but there are three in returns here < = >;
+		String c1 = "apple";
+		String d = "banana";
+		c1.compareTo(d); // come out as the boolean answer if two output, but there are three in returns here < = >;
 		
-		import java.util.*;
+		import java.util*;
 		
 		Scanner keyword = new Scanner(System.in); // create a Scanner object;
 		System.out.print("enter yout name(first and last):" ) // why it just the print, not println;
-		keyword.next(): String ;
+		keyword.next(): String;
 		keyword.nextline();
 		
-		//???? unfinish 
+		//???? un-finish 
 		keyword.hasNextInt(); // true it is an int;
 		
 		if (!Keyin.hasNext()){
@@ -108,12 +111,12 @@ public class lectureNote {
 	
 	public static boolean leapYear(int year){ // boolean here means return boolean in the end 	
 	System.exit(n);
-	// n = 0 menas normal exit, nor means error abort 
+	// n = 0 means normal exit, nor means error abort 
 }
 	
-public static double m(double a, double b) {// a and b can be int because java can convert int to double 
+public static double m(double a, double b){// a and b can be int because java can convert int to double 
 	int marks[] = new int[20]; // 20 zero in the arrays named marks 
-	String[] names = new String[10] // ten string array
+	String[] names = new String[10]; // ten string array
 	return a+b; 
 	}
 		
@@ -147,17 +150,17 @@ public static double m(double a, double b) {// a and b can be int because java c
 	
 	public static string array(int size){
 		int array_name[] = new int [10];
-		int x = array_name[0]; // ok
-		array_name[8] = 42; // ok
+		int x = array_name[0]; // okay
+		array_name[8] = 42; // okay
 		int z = array_name[5]; // exception, end at 9, -1 
-		for (int i = 0 ; i++; i < array_name.length){
+		for (int i = 0 ; i++; i<array_name.length){
 			
 		}
 		 int scores[][] =  new int [20][9];// two demintion table, 20rows, 9columns  	
 	}
 	
 	public class Import{
-		public static void main(String arg[]{
+		public static void main(String arg[]){
 			java.util.Scanner ketboard = new Scanner(System.in);
 			String name = keyboard.nextLine();
 			
