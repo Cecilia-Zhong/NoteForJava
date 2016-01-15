@@ -1,3 +1,4 @@
+package com.erable;
 /* chapter 1 
 	 *  name of class containing the main method 
 	 *  assuming all files in one directory: folders 

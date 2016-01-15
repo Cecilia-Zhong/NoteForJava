@@ -1,3 +1,4 @@
+package com.erable;
 /* Lecture 2 January 6th 
  * topic 2 basix javaI;
  * file I/O;
