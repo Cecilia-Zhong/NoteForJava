@@ -1,4 +1,5 @@
 package com.erable;
+
 /* Lecture 2 January 6th 
  * topic 2 basic javaI;
  * file I/O;
@@ -12,9 +13,12 @@ package com.erable;
  * 
  */
 
+// 简直混乱不堪，文件多点没问题，你可以建包。
+// 
+
 // create a new class, same as the name in file 
-public class lectureNote { 
-	// create the method named main 
+public class lectureNote {
+	// create the method named main
 	public static void main(String[] args) {
 		// indentation problem 
 		int n;
@@ -22,7 +26,8 @@ public class lectureNote {
 		int d;
 		if ( n > 10){ 
 			a = 1;
-			d = 2;
+			d = 2;  // 因为你结构错乱，所以出莫名其妙的错误，一般的错误你应该知道，n就报错了。所以我不在本地改了，我单拎出来文件。以后你也效仿我的写法。
+			// 而且因为代码混乱，根本就没法改了。
 		} // the whole brace { } is the group of statement 
 		// c = 3; 
 		 * 
@@ -30,26 +35,21 @@ public class lectureNote {
 
 	} // end main 
 
+	/*
+	 * question from lecture 2: 1. what is file I/O --> input and output file
+	 */
 
-/* question from lecture 2:
- * 1. what is file I/O --> input and output file 
- */
- 
-
- /* Lecture 3 January 8;
-  * 45
-  * Topic 2 basic java II;
-  * basic type used mostly: int and double 
-  * final(keyword): Pi is constant and it is not a variable; 
-  *  result of 1/3 results is int, which is 0 --> put it in the end of multiplication / let it *1.0 / (double)1/3;
-  *  type string: string is object in java 
-  *  string is not the list/arrays of character
-  *  'a' are type char, single character, encode from America; "a" is type string;
-  *  double equal: it is not equal --> if (s1 == s2) changes into: if (s1.equals(s2));
-  *  single equal: mathematics equal;
-  *  
-  */
-	public static void mainSec(String[] args){
+	/*
+	 * Lecture 3 January 8; 45 Topic 2 basic java II; basic type used mostly:
+	 * int and double final(keyword): Pi is constant and it is not a variable;
+	 * result of 1/3 results is int, which is 0 --> put it in the end of
+	 * multiplication / let it *1.0 / (double)1/3; type string: string is object
+	 * in java string is not the list/arrays of character 'a' are type char,
+	 * single character, encode from America; "a" is type string; double equal:
+	 * it is not equal --> if (s1 == s2) changes into: if (s1.equals(s2));
+	 * single equal: mathematics equal;
+	 */
+	public static void mainSec(String[] args){// 姐姐，mian只能有一个，python看来你是差不离忘光了。
 		String month = "January";
 		char c = month.charAt(2);
 		
@@ -110,7 +110,7 @@ public class lectureNote {
 // what does the result may or will shown if any condition happens 
 	
 	public static boolean leapYear(int year){ // boolean here means return boolean in the end 	
-	System.exit(n);
+	System.exit(n); // 你这种随便写的习惯，哎，都不知道怎么说你了，n是什么？
 	// n = 0 means normal exit, nor means error abort 
 }
 	
@@ -178,6 +178,4 @@ public static double m(double a, double b){// a and b can be int because java ca
 		
 				
 	}
-	
-	
 } // end class lectureNote
