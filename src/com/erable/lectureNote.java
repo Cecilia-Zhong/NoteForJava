@@ -13,7 +13,7 @@ package com.erable;
  * 
  */
 
-// ¼òÖ±»ìÂÒ²»¿°£¬ÎÄ¼ş¶àµãÃ»ÎÊÌâ£¬Äã¿ÉÒÔ½¨°ü¡£
+// ç®€ç›´æ··ä¹±ä¸å ªï¼Œæ–‡ä»¶å¤šç‚¹æ²¡é—®é¢˜ï¼Œä½ å¯ä»¥å»ºåŒ…ã€‚
 // 
 
 // create a new class, same as the name in file 
@@ -26,14 +26,14 @@ public class lectureNote {
 		int d;
 		if ( n > 10){ 
 			a = 1;
-			d = 2;  // ÒòÎªÄã½á¹¹´íÂÒ£¬ËùÒÔ³öÄªÃûÆäÃîµÄ´íÎó£¬Ò»°ãµÄ´íÎóÄãÓ¦¸ÃÖªµÀ£¬n¾Í±¨´íÁË¡£ËùÒÔÎÒ²»ÔÚ±¾µØ¸ÄÁË£¬ÎÒµ¥Áà³öÀ´ÎÄ¼ş¡£ÒÔºóÄãÒ²Ğ§·ÂÎÒµÄĞ´·¨¡£
-			// ¶øÇÒÒòÎª´úÂë»ìÂÒ£¬¸ù±¾¾ÍÃ»·¨¸ÄÁË¡£
+			d = 2;  // å› ä¸ºä½ ç»“æ„é”™ä¹±ï¼Œæ‰€ä»¥å‡ºè«åå…¶å¦™çš„é”™è¯¯ï¼Œä¸€èˆ¬çš„é”™è¯¯ä½ åº”è¯¥çŸ¥é“ï¼Œnå°±æŠ¥é”™äº†ã€‚æ‰€ä»¥æˆ‘ä¸åœ¨æœ¬åœ°æ”¹äº†ï¼Œæˆ‘å•æ‹å‡ºæ¥æ–‡ä»¶ã€‚ä»¥åä½ ä¹Ÿæ•ˆä»¿æˆ‘çš„å†™æ³•ã€‚
+			// è€Œä¸”å› ä¸ºä»£ç æ··ä¹±ï¼Œæ ¹æœ¬å°±æ²¡æ³•æ”¹äº†ã€‚
 		} // the whole brace { } is the group of statement 
 		// c = 3; 
 		 * 
 		 */
 
-	} // end main 
+	} // end main  
 
 	/*
 	 * question from lecture 2: 1. what is file I/O --> input and output file
@@ -49,7 +49,7 @@ public class lectureNote {
 	 * it is not equal --> if (s1 == s2) changes into: if (s1.equals(s2));
 	 * single equal: mathematics equal;
 	 */
-	public static void mainSec(String[] args){// ½ã½ã£¬mianÖ»ÄÜÓĞÒ»¸ö£¬python¿´À´ÄãÊÇ²î²»ÀëÍü¹âÁË¡£
+	public static void mainSec(String[] args){// å§å§ï¼Œmianåªèƒ½æœ‰ä¸€ä¸ªï¼Œpythonçœ‹æ¥ä½ æ˜¯å·®ä¸ç¦»å¿˜å…‰äº†ã€‚
 		String month = "January";
 		char c = month.charAt(2);
 		
@@ -110,7 +110,7 @@ public class lectureNote {
 // what does the result may or will shown if any condition happens 
 	
 	public static boolean leapYear(int year){ // boolean here means return boolean in the end 	
-	System.exit(n); // ÄãÕâÖÖËæ±ãĞ´µÄÏ°¹ß£¬°¥£¬¶¼²»ÖªµÀÔõÃ´ËµÄãÁË£¬nÊÇÊ²Ã´£¿
+	System.exit(n); // ä½ è¿™ç§éšä¾¿å†™çš„ä¹ æƒ¯ï¼Œå“ï¼Œéƒ½ä¸çŸ¥é“æ€ä¹ˆè¯´ä½ äº†ï¼Œnæ˜¯ä»€ä¹ˆï¼Ÿ
 	// n = 0 means normal exit, nor means error abort 
 }
 	
