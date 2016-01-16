@@ -1,5 +1,5 @@
 package com.erable;
-
+import java.util*;
 /* Lecture 2 January 6th 
  * topic 2 basic javaI;
  * file I/O;
@@ -171,9 +171,28 @@ public static double m(double a, double b){// a and b can be int because java ca
 	}
 		
 		
+/* lecture 7 friday january 15
+ * Topic3: classes
+ * OOP: object-oriented programming: encapsulation(captured all vairbale all together);inheritance(class inheriate another class); 
+ * polymorphism(we will get there ==| information hiding-- contain how change or use the object data);
+ * 
+ */
+public class resteraurant{
+	public String name;
+	public int rating;
+	public double avecost;
+	public boolean hasveg; // one class per file with .java in the end
+	
+	public static void main(String args[]){
+		Resteraurant rest = new Resteraurant();
+		rest.name = "river";
+		rest.rating = 5;
+		rest.avecost = 4.5;
+		rest hasveg = true;
 		
-		
-		
+				
+	}
+}		
 		
 		
 				
