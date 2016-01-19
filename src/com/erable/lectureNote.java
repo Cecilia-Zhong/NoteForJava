@@ -194,7 +194,39 @@ public class resteraurant{
 	}
 }		
 		
-		
-				
+/*lecture 8 tuesday january 19
+ * public: can be use and call by the function outside of its original class;
+ * private: protect against mistake, only use within the same class;
+ * name cannot be changes by private; 
+ * public class can be used, can be use other of this documents (preface)
+ * the private class only inner working of the class (implementation)
+ * 'this' the whole object; 
+ * get&set methods: get method tells us the method, setL change the variable and attribute 
+ */
+
+/*Question lecture8 
+ * 1.what happen if we have public void -->  just print or other use with no return? what kind; does it mean end of program??? 
+ * 2.for the this? why do we use it 
+ * 
+ */
+public boolean goood(){
+	return rating >=3;
+}
+public Emplyee(String name, String jobTitle,double wahe){
+	this.name = name;
+	this.jobTitle = jobTitle;
+	this.wage = wage;
+}
+
+
+
+
+
+
+
+
+
+
+
 	}
 } // end class lectureNote
