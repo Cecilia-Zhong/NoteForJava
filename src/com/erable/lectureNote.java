@@ -205,8 +205,8 @@ public class resteraurant{
  */
 
 /*Question lecture8 
- * 1.what happen if we have public void -->  just print or other use with no return? what kind; does it mean end of program??? 
- * 2.for the this? why do we use it 
+ * 1.what happen if we have public void ?? just print or other use with no return? what kind; does it mean end of program??? 
+ * 2.for the this? why do we use it --> don't need to reset teh variable from the paramter again 
  * 
  */
 public boolean goood(){
@@ -217,9 +217,27 @@ public Emplyee(String name, String jobTitle,double wahe){
 	this.jobTitle = jobTitle;
 	this.wage = wage;
 }
+/* lecture 9 january 20th 
+ * overload construcuture: use this to get them into another name from parameter by order 
+ * "final": constant
+ * static changge be change and constant all the time;
+ * alias: 
+ * garbage collection: 
+ * class is immutable: cannot change the obejct inside the class once it is create --> by private or instance variables 
+ * string is immutable 
+ * package: include differnt class with more than one class 
+ * 
+ * 
+ */
 
-
-
+/* Question in lecture 9 
+ * what is the diff btw: final, static --> make the value unchangable ??
+ * pragram --> package --> class ( or back another package again) --> method 
+ * default: doesn't have a name but the main package 
+ * java API has a lot lackage --> confused in name of package and class 
+ * 
+ * 
+ */
 
 
 
