@@ -240,7 +240,25 @@ public Emplyee(String name, String jobTitle,double wahe){
  */
 
 
+/* lecture 10 friday january 22
+ * java.lang 
+ * 
+ * recall the metho dwith same features 
+ * static: create another instant by return the calculation valuable 
+ * final : doesn't change any value of variable 
+ * euqal: == exceact the same in object, which means everything; 
+ * set method and get method 
+ * representation choice: 
+ * defualt value: number: 0; boolean: false; char: '\0' ; object: null;
+ * 
+ */
 
+/* question in lecture 10
+ * 1. how to use the this because as the method only have two parameter inside it,
+ *  the this can have more than three variable, why??
+ * 2. 
+ * 
+ */
 
 
 
