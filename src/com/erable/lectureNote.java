@@ -173,10 +173,24 @@ public static double m(double a, double b){// a and b can be int because java ca
 		
 /* lecture 7 friday january 15
  * Topic3: classes
- * OOP: object-oriented programming: encapsulation(captured all vairbale all together);inheritance(class inheriate another class); 
- * polymorphism(we will get there ==| information hiding-- contain how change or use the object data);
+ * indenting problem: indenting: method one line after the class; the condition have the same indenting 
+ * comment: useful to learn about the code 
+ * 
+ * Topic3 Classes: 
+ * -  three important elements: encapsulation(taking bunch of variale data); inheritance(class related to each other);polumorphism
+ * -  
+ * OOP: object-oriented programming: encapsulation(information hiding, captured all vairbale all together);inheritance(class inheriate another class); 
+ * -  polymorphism(we will get there ==| -- contain how change or use the object data);
+ * : bash : files need to compile before running:  javac java file. java ; java filename 
+ * main class: just a class with main method 
+ * output printing: System.out.println()// print out in the new line; 
+ * 					System.out.print() // print out int the same line;
+ * String is a predefined Jaca class - include the characters and length
+ * Anthropomophize: object rememeber infor (instance variables) how to do things (instance methods) 
+ * Special method: toString;
  * 
  */
+// (baisc distribution of the resturant object) 
 public class resteraurant{
 	public String name;
 	public int rating;
@@ -184,17 +198,40 @@ public class resteraurant{
 	public boolean hasveg; // one class per file with .java in the end
 	
 	public static void main(String args[]){
-		Resteraurant rest = new Resteraurant();
-		rest.name = "river";
+		Resteraurant rest = new Resteraurant(); // calling the class, constructing the resturant objectl 
+		rest.name = "river"; // call from the class resturant and name method within the resturant 
 		rest.rating = 5;
 		rest.avecost = 4.5;
 		rest hasveg = true;
-		
-				
 	}
-}		
-		
+	
+	public void	increaseRating(){
+		if (rating <5){
+			rating++;
+		} // called by rest.increaseRating
+	}
+	
+	// decide if it is a good resturant or not 
+	public boolean good(){
+		return rating >= 3;
+	} // rest.good()
+	
+	public void changeName(String newName){
+		name = newName;
+	}
+
+	public String toString(){ // take no parameter; don't actually call the toString in the object;
+		return name + ", rating " + rating + ", avg.cost $ " + avgCost;
+	} // automatic print out 
+// String + object () --> everything would convert to string --> print out the String and the formate on to String 
+	
+	
 /*lecture 8 tuesday january 19
+ * continue Topic 3: classes 
+ * constructure: same name as the class name wtihout returning anyting; with the paramete can be called from the other class;
+ * - if create the constructure, the parameter will be the same with the constructure have; nor default zero parameter 
+ * - if don't need to input the parameter, just make specific value in the constructure;
+ * - write zero parameter construcutre 
  * public: can be use and call by the function outside of its original class;
  * private: protect against mistake, only use within the same class;
  * name cannot be changes by private; 
@@ -202,15 +239,17 @@ public class resteraurant{
  * the private class only inner working of the class (implementation)
  * 'this' the whole object; 
  * get&set methods: get method tells us the method, setL change the variable and attribute 
+ * 
  */
 
 /*Question lecture8 
- * 1.what happen if we have public void ?? just print or other use with no return? what kind; does it mean end of program??? 
- * 2.for the this? why do we use it --> don't need to reset teh variable from the paramter again 
  * 
+ * 1.public void --> no return just the action 
+ * 2.for the this? why do we use it --> don't need to reset teh variable from the paramter again 
+ * 3. while(!false) --> can run the while loop here ?
  */
 public boolean goood(){
-	return rating >=3;
+	return rating >=3; // return boolean value if raning is larger than 3 
 }
 public Emplyee(String name, String jobTitle,double wahe){
 	this.name = name;
@@ -231,7 +270,7 @@ public Emplyee(String name, String jobTitle,double wahe){
  */
 
 /* Question in lecture 9 
- * what is the diff btw: final, static --> make the value unchangable ??
+ * what is the diff btw: final, static --> static is traking the variable in the method, but final is the one cannot be changes anymore, 
  * pragram --> package --> class ( or back another package again) --> method 
  * default: doesn't have a name but the main package 
  * java API has a lot lackage --> confused in name of package and class 
