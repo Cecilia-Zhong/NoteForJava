@@ -349,11 +349,43 @@ public abstract class Question{
 	}
 }// end class Question 
 
+/* 
+ * lecture 
+ * Feb. 10 
+ * wrapper class: 
+ * exception 
+ * infinite loop: for(;;)
+ * 
+ */
 
+/* lecture Feb. 23th Tuesday exception 
+ *  void write(int b) throws IOException {};
+ * occasional nuisances: 
+ * catch(EmptyStackException e) {System.out.print....};
+ * RuntimeException 
+ * 
+ * Feb 24th wednesday 
+ * three types of classes: iner classes, static nested classes, anonymous classes 
+ * inner classes: one class per file, one class inside another class; purpose: sub-object inside another object; 
+ * 
+ */
+public class SlideDemo{
+	public InnerClass subObject;
+	public class InnerClass{// public 
+		public int b;
+	}// end of inner class
+		// the value form the outside class can be use the in the inner class, the value should be public.... if vairbale is private, it is illegal 
+	public static class MyException{
+		// create the clss may raise exception 
+	}
+	
+		
+	}// end of SlideDemo outer class 
 
-
-
-
+// anonymous class 
+Array myStack = new ArrayStack(){
+	
+}; // end of the anonymous class, changing existing methods, not adding new ones 
 
 
 
