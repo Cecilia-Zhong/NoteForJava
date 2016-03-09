@@ -32,7 +32,7 @@ Outline
 2. layout --> button 
 3. components & actions 
 4. graphics
-5. mouse events& timers
+5. mouse events& timers permits 
 
 GUI 
 - easy to figure out
@@ -111,6 +111,89 @@ JOptionPane.CANCEL_OPTION
 
 input dialog 
 - if hit okay, return string, cancel return null 
+
+March 8th tuesday 
+B. Layout 
+Loaction of the box 
+- 5 position: NORTH, SOUTH, WEST, EAST, CENTER
+setLayout(new BorderLayout());
+add(northButton, BorderLayout.NORTH);
+pack();
+setVisial(True);
+
+flow layout:
+- never strag to teh component: the size is still for them
+- if it is too narrow, the woudl be on the new line
+- add the button would be on a line, from left to right by order 
+- ????   break into multiple rows 
+
+setLayout(new GridLayout(row,column)){
+
+Grid Lyout:
+- same width and same length 
+- strage for expend and get small 
+- 
+
+gap
+- the area between the button 
+- ???????????
+changing a prefer size:
+Dimension size3 = btn.getPreferredSize();
+
+btn.setPreferredSize(new Dimension(width,height));
+
+button.getsize(); // get the size of the button 
+
+Jpanel:
+- like the chart for using 
+Jpanel row1= new Jpanel(new GridLayout(1,0)); // row, column 
+
+new Jpanel(new GridLayout(0,2));
+new Jpanel; // default is FlowLayout 
+
+Jpanel row1= new Jpanel(new FlowLayout(1,0))
+
+
+March 9th Wednesday Component and actino 
+import java.awt.event.*;
+- use the panel and put the button into it, the button would flow layout in the middle/ make a arguement of left,right or center 
+- ActionEvent 
+Obect getSourse();
+String getActionCommand(); // either one of them 
+
+- 
+
+public interface ActionListener(){
+	
+	}
++ Sequence of Events 
+- Set up 
+--> - create the button 
+	- create listner 
+	- resgister lisnter with the button 
+
+---------
+stopbutton.addActionListner(new ActionEvent());
+
+private class StopListner implements ActionListner{
+	public void actionPerformed(ActionEvent e){
+		System.exit(0);}
+}// end class Stoplistner 
+-------- 
+//or 
+--------
+
+stopbutton.addActionListner(
+	new ActionEvent(){
+		public void actionPerformed(ActionEvent e){
+		System.exit(0);
+		}
+	}
+);
+-----------
+
+
+
 
 
 

@@ -387,28 +387,5 @@ Array myStack = new ArrayStack(){
 	
 }; // end of the anonymous class, changing existing methods, not adding new ones 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	}
 } // end class lectureNote
