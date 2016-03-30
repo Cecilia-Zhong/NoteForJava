@@ -65,7 +65,7 @@ March 4th
 
 public class BabySwing extends JFrame{
 	public babySwing(){
-		setDize(400,300);
+		setSize(400,300);
 		setTitle("my swing program");
 
 		JButton helloUButton = new JButton("Hello"); // if only one, just at the entral as the whole button in the window
@@ -194,6 +194,66 @@ stopbutton.addActionListner(
 
 
 
+March23th Wednesday After quiz 2 
+
+"trail"-- java tutorial 
+* collection<E>: with the method --> Set<E>/ List<E> --> (from Set<E>) SortedSet<E>
+* Map <K,V> --> SortedMap<K,V>
+* all import from java.util 
+
+-two basic collection 
+	- set (no order) and lists (order sequence) 
+	- map: like the dic, have key and value 
+	- type of set of method, can copy from other class and change to as new requirement 
+	- collection: combine, add, remove, search, delete(delete once would delete all of them at once)
+//set inteface
+	public inteface Set<E> extends Collections<E>{...
+}
+-  use hashing technique
+- constructore or empty has set 
+
+example: 
+Set<String> cisc121 = new HashSet<String>();
+cisc121.add("John");cisc121.add("Amy");cisc121.add("Paul");cisc121.add("Ringo"); 
+// if reprint again, the name is not in order but the same as the first time 
+cisc121.contains("Mary"); 
+cisc.remove("Ringo");
+Set<String> combined = new HashSet(cisc121);
+combined.addAll(cisc124); // add on the behind, if it is the same, there is no effect and only one on the set 
+combined.removeAll(topOfClass); // remove the first set, topOfClass is the set 
+
+sorted set
+ 		hash set 	tree set 
+insert  O(1)		O(logn)
+delete	O(1)		O(logn)
+lookup 	O(1)		O(logn)
+print/terate		O(n)
+
+sorted set -- msut to implements comparable 
+ketboard.nextline(); // pause 
+
+
+March 29th Tuesday 
+- tree set: name(age)
+- subset: get the set from the set by some limit conditions 
+- people.subset(lucy12,lucy20); --> person ("lucy",20) --> [lucy(12),others(18)]
+- if you add somthing to the subset, they would appear to the original set -- shallow copy 
+- head set: ()people.headset(diggory); // get all the set but not includ diggory 
+- tail set 
+- hash set: faster for large set, just one set of one value for each such as name 
+- 
+Iterator<String> nameIter = hobbits.iterator();
+name.hasNext--> return boolean if the next one has exits 
+String name = nameIter.next(); //point to the next elements, the last one is delet 
+
+March 30 wednesday 
+	list.indexOf();
+	list.lastindexOf();
+	list.get();
+ 	list.addAll();
+ - map is like the dic 
+ - set<map.entry> --> get the set of the pair BufferedImage
+ - loop the set --> pair.getValue.equals("cat"); 
 
 
 
